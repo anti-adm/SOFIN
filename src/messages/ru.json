@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Главная",
+    "products": "Продукция",
+    "about": "О компании",
+    "recipes": "Рецепты",
+    "contacts": "Контакты",
+    "privacy": "Политика"
+  },
+  "common": {
+    "brand": "SOFIN",
+    "slogan": "От фермы до полки"
+  }
+}

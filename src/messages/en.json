@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "recipes": "Recipes",
+    "contacts": "Contacts",
+    "privacy": "Privacy"
+  },
+  "common": {
+    "brand": "SOFIN",
+    "slogan": "From farm to shelf"
+  }
+}

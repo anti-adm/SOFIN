@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: 246 249 255;
+  --fg: 9 18 33;
+  --muted: 95 110 135;
+  --glass: 255 255 255;
+  --glassBorder: 190 205 230;
+  --accent: 12 46 120;
+  --accent2: 9 18 33;
+
+  --r-xl: 18px;
+  --r-2xl: 26px;
+
+  --container: 1180px;
+  --grid-gap: 18px;
+  --section-pad: clamp(56px, 7vw, 96px);
+
+  --blur-sm: 8px;
+  --blur-md: 14px;
+  --blur-lg: 24px;
+
+  --shadow-soft: 0 10px 30px rgba(9,18,33,.06), 0 1px 0 rgba(255,255,255,.55) inset;
+  --shadow-lift: 0 18px 48px rgba(9,18,33,.12), 0 1px 0 rgba(255,255,255,.62) inset;
+
+  /* Layout */
+  --header-h: 88px;
+  --header-surface: 255 255 255;     /* всегда светлый */
+  --header-border: 190 205 230;      /* твой glassBorder */
+  --header-text: 9 18 33;            /* твой fg */
+}
+
+html, body { height: 100%; margin: 0; }
+
+body{
+  background:
+    radial-gradient(1200px 700px at 20% 0%, rgba(12,46,120,.10), transparent 60%),
+    radial-gradient(1200px 700px at 80% 20%, rgba(9,18,33,.08), transparent 65%),
+    rgb(var(--bg));
+  color: rgb(var(--fg));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: var(--font-text), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+::selection{ background: rgba(12,46,120,.18); }
+
+.container{
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: clamp(16px, 2vw, 26px);
+}
+
+/* Typography */
+.h1{
+  font-size: clamp(44px, 6vw, 92px);
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+.h2{
+  font-size: clamp(28px, 3.6vw, 52px);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  font-weight: 650;
+}
+.p{
+  font-size: 16px;
+  line-height: 1.65;
+  color: rgb(var(--muted));
+}
+.h1, .h2{
+  font-family: var(--font-display), var(--font-text), ui-sans-serif, system-ui;
+}
+
+/* Liquid glass base */
+.glass{
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.18), rgba(255,255,255,.10)),
+    radial-gradient(900px 520px at 20% 0%, rgba(255,255,255,.26), transparent 60%),
+    radial-gradient(900px 520px at 80% 40%, rgba(12,46,120,.10), transparent 65%);
+  border: 1px solid rgba(190,205,230,.38);
+  backdrop-filter: blur(var(--blur-md));
+  -webkit-backdrop-filter: blur(var(--blur-md));
+  border-radius: var(--r-2xl);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+.glass::before{
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background:
+    linear-gradient(to bottom, rgba(255,255,255,.38), transparent 30%),
+    radial-gradient(520px 240px at 22% 12%, rgba(255,255,255,.30), transparent 60%);
+  opacity: .55;
+  pointer-events: none;
+}
+.glass::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,.16), transparent);
+  opacity: .20;
+  transform: translateX(-30%);
+  pointer-events: none;
+}
+.glass-shimmer:hover::after{
+  animation: glassShimmer 900ms ease forwards;
+}
+@keyframes glassShimmer{
+  from { transform: translateX(-30%); opacity: .16; }
+  to   { transform: translateX(30%);  opacity: .26; }
+}
+
+/* Header glass variant (ещё прозрачнее, чтобы не выглядел как “плашка”) */
+.glass-header{
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.14), rgba(255,255,255,.07)),
+    radial-gradient(900px 520px at 20% 0%, rgba(255,255,255,.18), transparent 60%),
+    radial-gradient(900px 520px at 80% 40%, rgba(12,46,120,.06), transparent 65%);
+  border: 1px solid rgba(190,205,230,.30);
+  box-shadow: 0 10px 26px rgba(9,18,33,.06);
+}
+
+/* Hero text glass (еле заметный) */
+.glass-hero{
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 18px 52px rgba(0,0,0,.18);
+}
+
+/* Divider */
+.hr{
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, transparent, rgba(9,18,33,.14), transparent);
+}
+
+/* Buttons (идеальные) */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border-radius: 18px;
+  font-size: 14px;
+  line-height: 1;
+  transition: transform .18s ease, background-color .18s ease, box-shadow .18s ease, border-color .18s ease, color .18s ease;
+  user-select: none;
+}
+.btn:active{ transform: scale(.98); }
+
+.btn-primary-dark{
+  color: rgba(255,255,255,.92);
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.20);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 18px 52px rgba(0,0,0,.18);
+}
+.btn-primary-dark:hover{
+  background: rgba(255,255,255,.16);
+  border-color: rgba(255,255,255,.26);
+  box-shadow: 0 22px 60px rgba(0,0,0,.22);
+}
+
+.btn-ghost-dark{
+  color: rgba(255,255,255,.74);
+  background: transparent;
+  border: 1px solid rgba(255,255,255,.00);
+}
+.btn-ghost-dark:hover{
+  color: rgba(255,255,255,.92);
+  background: rgba(255,255,255,.08);
+  border-color: rgba(255,255,255,.16);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Grain overlay */
+.grain{
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  opacity: .035;
+  mix-blend-mode: soft-light;
+  background-image: url("/media/grain.svg");
+  background-size: 320px 320px;
+  z-index: 60;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  html:focus-within { scroll-behavior: auto; }
+  *, *::before, *::after{
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* Fixed header offset */
+main{ padding-top: var(--header-h); }
+
+@media (max-width: 768px){
+  :root{ --header-h: 78px; }
+}
+
+/* Hero card: allow real collapse (remove legacy min-heights) */
+.glass-hero-dynamic {
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+/* If glass-hero had fixed padding/spacing, neutralize it here */
+.glass-hero-dynamic::before,
+.glass-hero-dynamic::after {
+  /* keep visual effects but don't force layout */
+  content: "";
+}

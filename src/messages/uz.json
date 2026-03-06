@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "about": "Kompaniya",
+    "recipes": "Retseptlar",
+    "contacts": "Kontaktlar",
+    "privacy": "Maxfiylik"
+  },
+  "common": {
+    "brand": "SOFIN",
+    "slogan": "Fermerdan tokchagacha"
+  }
+}

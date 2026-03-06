@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "milk-classic",
+    "name": "Classic Milk",
+    "description": "Clean taste and a calm balance for everyday use.",
+    "category": "Milk",
+    "images": ["/media/product-milk.svg"]
+  },
+  {
+    "slug": "kefir",
+    "name": "Kefir",
+    "description": "A light tang and a well-balanced taste.",
+    "category": "Fermented dairy",
+    "images": ["/media/product-kefir.svg"]
+  },
+  {
+    "slug": "yogurt",
+    "name": "Yogurt",
+    "description": "Delicate texture and a carefully balanced recipe.",
+    "category": "Yogurt",
+    "images": ["/media/product-yogurt.svg"]
+  },
+  {
+    "slug": "mozzarella-400",
+    "name": "Mozzarella 400 g",
+    "description": "A tender cheese made from pasteurized cow’s milk. Great for salads, pizza, and hot dishes.",
+    "category": "Cheese",
+    "images": [
+      "/media/products/mozzarella/1.jpg",
+      "/media/products/mozzarella/2.jpg",
+      "/media/products/mozzarella/3.jpg",
+      "/media/products/mozzarella/4.jpg"
+    ],
+    "nutrition": {
+      "protein": 26.3,
+      "fats": 21.7,
+      "carbs": 2.0,
+      "kcal": 308,
+      "note": "* Per 100 g of product"
+    },
+    "facts": {
+      "shelfLife": "See packaging",
+      "packCount": "—",
+      "netWeight": "400 g"
+    },
+    "ingredients": "Ingredients: pasteurized cow’s milk, cheese starter culture, salt, emulsifying salts (sodium citrate, sodium phosphates/polyphosphates), thickeners (carrageenan, locust bean gum), stabilizer (calcium chloride), preservative (potassium sorbate), color (beta-carotene). Allergens: milk and dairy products. Contains lactose. Store at +2…+4°C. Milk fat in dry matter — at least 45%. Manufacturer: “Yangi Asr” (farm)."
+  },
+
+  {
+    "slug": "qatiq-3",
+    "name": "Qatiq 3%",
+    "description": "A classic fermented dairy drink with a mild, smooth taste.",
+    "category": "Fermented dairy",
+    "images": [
+      "/media/products/qatiq-3/1.jpg",
+      "/media/products/qatiq-3/2.jpg",
+      "/media/products/qatiq-3/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 2.6,
+      "fats": 3.0,
+      "carbs": 4.6,
+      "kcal": 57,
+      "note": "* Per 100 g of product"
+    },
+    "facts": {
+      "shelfLife": "20 days at +4±2°C; after opening — consume within 24 hours",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Ingredients: normalized milk, drinking water, iodized salt, starter culture. Storage: +4±2°C, relative humidity about 70%. Production date and best-before date are indicated on the package."
+  },
+
+  {
+    "slug": "smetana",
+    "name": "Sour Cream",
+    "description": "Tender sour cream made from normalized cream and starter culture.",
+    "category": "Fermented dairy",
+    "images": [
+      "/media/products/smetana/1.jpg",
+      "/media/products/smetana/2.jpg",
+      "/media/products/smetana/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 2.8,
+      "fats": 20.0,
+      "carbs": 3.2,
+      "kcal": 204,
+      "note": "* Per 100 g of product"
+    },
+    "facts": {
+      "shelfLife": "21 days at +4±2°C; after opening — consume within 24 hours",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Ingredients: normalized cream, starter culture. Storage: +4±2°C. Production date and best-before date are indicated on the package. Manufacturer: “Yangi Asr” (farm)."
+  },
+
+  {
+    "slug": "qaymaq",
+    "name": "Qaymaq (Milk Cream)",
+    "description": "Rich, creamy dairy product with a full-bodied taste.",
+    "category": "Cream",
+    "images": [
+      "/media/products/qaymaq/1.jpg",
+      "/media/products/qaymaq/2.jpg",
+      "/media/products/qaymaq/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 2.3,
+      "fats": 45.0,
+      "carbs": 2.9,
+      "kcal": 425.8,
+      "note": "* Per 100 g of product"
+    },
+    "facts": {
+      "shelfLife": "21 days at +4±2°C; after opening — consume within 24 hours",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Ingredients: normalized cream. Storage: +4±2°C. Production date and best-before date are indicated on the package. Manufacturer: “Yangi Asr” (farm)."
+  },
+
+  {
+    "slug": "tvorog-yumshoq",
+    "name": "Soft Curd (Yumshoq Tvorog)",
+    "description": "Soft curd made from pasteurized milk and starter culture.",
+    "category": "Curd",
+    "images": [
+      "/media/products/tvorog-yumshoq/1.jpg",
+      "/media/products/tvorog-yumshoq/2.jpg",
+      "/media/products/tvorog-yumshoq/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 18.0,
+      "fats": 5.0,
+      "carbs": 3.0,
+      "kcal": 308,
+      "note": "* Per 100 g of product"
+    },
+    "facts": {
+      "shelfLife": "See packaging",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Ingredients: pasteurized milk, starter culture."
+  },
+
+  {
+    "slug": "pishloq-oxotnichiy",
+    "name": "“Okhotnichiy” Cheese",
+    "description": "Firm cheese with a distinctive taste and aroma.",
+    "category": "Cheese",
+    "images": [
+      "/media/products/pishloq-oxotnichiy/1.jpg",
+      "/media/products/pishloq-oxotnichiy/2.jpg",
+      "/media/products/pishloq-oxotnichiy/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 24.0,
+      "fats": 31.0,
+      "carbs": 0.0,
+      "kcal": 377,
+      "note": "* Per 100 g of product"
+    },
+    "facts": {
+      "shelfLife": "See packaging",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Ingredients: pasteurized milk, salt, calcium chloride, natural color, rennet enzyme, herb starter culture."
+  },
+
+  {
+    "slug": "ayron-1",
+    "name": "Ayran 1%",
+    "description": "Light, refreshing ayran.",
+    "category": "Fermented dairy",
+    "images": [
+      "/media/products/ayron-1/1.jpg",
+      "/media/products/ayron-1/2.jpg",
+      "/media/products/ayron-1/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 1.1,
+      "fats": 1.0,
+      "carbs": 1.4,
+      "kcal": 24,
+      "note": "* Per 100 g of product"
+    },
+    "facts": {
+      "shelfLife": "See packaging",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Ingredients: normalized milk, drinking water, iodized salt, starter culture. Milk fat content: 1%."
+  },
+
+  {
+    "slug": "ayron-rayhonli-1",
+    "name": "Ayran with Basil (Rayhon) 1%",
+    "description": "Light ayran with a subtle basil (rayhon) note.",
+    "category": "Fermented dairy",
+    "images": [
+      "/media/products/ayron-rayhonli-1/1.jpg",
+      "/media/products/ayron-rayhonli-1/2.jpg",
+      "/media/products/ayron-rayhonli-1/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 1.1,
+      "fats": 1.0,
+      "carbs": 1.4,
+      "kcal": 24,
+      "note": "* Per 100 g of product"
+    },
+    "facts": {
+      "shelfLife": "See packaging",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Ingredients: normalized milk, drinking water, iodized salt, starter culture. Milk fat content: 1%."
+  }
+]

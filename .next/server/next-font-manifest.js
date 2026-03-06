@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/klymz/Downloads/sofin-remake-fixed/src/app/layout\":[\"static/media/28793f5c5e3d822d-s.p.woff2\",\"static/media/26d4368bf94c0ec4-s.p.woff2\",\"static/media/6ce0d0fd45f1bd74-s.p.woff2\",\"static/media/7a820720491a53d2-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

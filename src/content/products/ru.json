@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "milk-classic",
+    "name": "Молоко Classic",
+    "description": "Чистый вкус и спокойный баланс на каждый день.",
+    "category": "Молоко",
+    "images": ["/media/product-milk.svg"]
+  },
+  {
+    "slug": "kefir",
+    "name": "Кефир",
+    "description": "Лёгкая кислинка и полезный баланс.",
+    "category": "Кисломолочные",
+    "images": ["/media/product-kefir.svg"]
+  },
+  {
+    "slug": "yogurt",
+    "name": "Йогурт",
+    "description": "Нежная текстура и аккуратный состав.",
+    "category": "Йогурт",
+    "images": ["/media/product-yogurt.svg"]
+  },
+  {
+    "slug": "mozzarella-400",
+    "name": "Mozzarella 400 g",
+    "description": "Нежный сыр из пастеризованного коровьего молока. Подходит для салатов, пиццы и горячих блюд.",
+    "category": "Сыр",
+    "images": [
+      "/media/products/mozzarella/1.jpg",
+      "/media/products/mozzarella/2.jpg",
+      "/media/products/mozzarella/3.jpg",
+      "/media/products/mozzarella/4.jpg"
+    ],
+    "nutrition": {
+      "protein": 26.3,
+      "fats": 21.7,
+      "carbs": 2.0,
+      "kcal": 308,
+      "note": "* На 100 г продукта"
+    },
+    "facts": {
+      "shelfLife": "См. на упаковке",
+      "packCount": "—",
+      "netWeight": "400 g"
+    },
+    "ingredients": "Состав: пастеризованное коровье молоко, закваска для сыра, соль, эмульгирующие соли (цитрат натрия, фосфаты/полифосфаты натрия), загустители (каррагинан, камедь рожкового дерева), стабилизатор (хлорид кальция), консервант (сорбат калия), краситель (бета-каротин). Аллергены: молоко и молочные продукты. Содержит лактозу. Хранить при +2…+4°C. Массовая доля жира в сухом веществе — не менее 45%. Производитель: «Yangi Asr» (фермерское хозяйство)."
+  },
+
+  {
+    "slug": "qatiq-3",
+    "name": "Катык 3%",
+    "description": "Классический кисломолочный продукт с мягким вкусом.",
+    "category": "Кисломолочные",
+    "images": [
+      "/media/products/qatiq-3/1.jpg",
+      "/media/products/qatiq-3/2.jpg",
+      "/media/products/qatiq-3/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 2.6,
+      "fats": 3.0,
+      "carbs": 4.6,
+      "kcal": 57,
+      "note": "* На 100 г продукта"
+    },
+    "facts": {
+      "shelfLife": "20 дней при +4±2°C; после вскрытия — употребить в течение 24 часов",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Состав: нормализованное молоко, питьевая вода, йодированная соль, закваска. Условия хранения: при +4±2°C и относительной влажности воздуха около 70%. Дата производства и срок годности указаны на упаковке."
+  },
+
+  {
+    "slug": "smetana",
+    "name": "Сметана (Sour Cream)",
+    "description": "Нежная сметана из нормализованных сливок и закваски.",
+    "category": "Кисломолочные",
+    "images": [
+      "/media/products/smetana/1.jpg",
+      "/media/products/smetana/2.jpg",
+      "/media/products/smetana/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 2.8,
+      "fats": 20.0,
+      "carbs": 3.2,
+      "kcal": 204,
+      "note": "* На 100 г продукта"
+    },
+    "facts": {
+      "shelfLife": "21 день при +4±2°C; после вскрытия — употребить в течение 24 часов",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Состав: нормализованные сливки, закваска. Условия хранения: при +4±2°C. Дата производства и срок годности указаны на упаковке. Производитель: «Yangi Asr» (фермерское хозяйство)."
+  },
+
+  {
+    "slug": "qaymaq",
+    "name": "Каймак (Milk Cream)",
+    "description": "Сливочный продукт с насыщенным вкусом.",
+    "category": "Сливки и крем",
+    "images": [
+      "/media/products/qaymaq/1.jpg",
+      "/media/products/qaymaq/2.jpg",
+      "/media/products/qaymaq/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 2.3,
+      "fats": 45.0,
+      "carbs": 2.9,
+      "kcal": 425.8,
+      "note": "* На 100 г продукта"
+    },
+    "facts": {
+      "shelfLife": "21 день при +4±2°C; после вскрытия — употребить в течение 24 часов",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Состав: нормализованные сливки. Условия хранения: при +4±2°C. Дата производства и срок годности указаны на упаковке. Производитель: «Yangi Asr» (фермерское хозяйство)."
+  },
+
+  {
+    "slug": "tvorog-yumshoq",
+    "name": "Творог мягкий (Yumshoq Tvorog)",
+    "description": "Мягкий творог из пастеризованного молока и закваски.",
+    "category": "Творог",
+    "images": [
+      "/media/products/tvorog-yumshoq/1.jpg",
+      "/media/products/tvorog-yumshoq/2.jpg",
+      "/media/products/tvorog-yumshoq/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 18.0,
+      "fats": 5.0,
+      "carbs": 3.0,
+      "kcal": 308,
+      "note": "* На 100 г продукта"
+    },
+    "facts": {
+      "shelfLife": "См. на упаковке",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Состав: пастеризованное молоко, закваска."
+  },
+
+  {
+    "slug": "pishloq-oxotnichiy",
+    "name": "Сыр «Охотничий»",
+    "description": "Плотный сыр с характерным вкусом и ароматом.",
+    "category": "Сыр",
+    "images": [
+      "/media/products/pishloq-oxotnichiy/1.jpg",
+      "/media/products/pishloq-oxotnichiy/2.jpg",
+      "/media/products/pishloq-oxotnichiy/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 24.0,
+      "fats": 31.0,
+      "carbs": 0.0,
+      "kcal": 377,
+      "note": "* На 100 г продукта"
+    },
+    "facts": {
+      "shelfLife": "См. на упаковке",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Состав: пастеризованное молоко, поваренная соль, хлорид кальция, натуральный краситель, сычужный фермент, закваска с зеленью."
+  },
+
+  {
+    "slug": "ayron-1",
+    "name": "Айран 1%",
+    "description": "Лёгкий айран с освежающим вкусом.",
+    "category": "Кисломолочные",
+    "images": [
+      "/media/products/ayron-1/1.jpg",
+      "/media/products/ayron-1/2.jpg",
+      "/media/products/ayron-1/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 1.1,
+      "fats": 1.0,
+      "carbs": 1.4,
+      "kcal": 24,
+      "note": "* На 100 г продукта"
+    },
+    "facts": {
+      "shelfLife": "См. на упаковке",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Состав: нормализованное молоко, питьевая вода, йодированная соль, закваска. Жирность молока: 1%."
+  },
+
+  {
+    "slug": "ayron-rayhonli-1",
+    "name": "Айран с райхоном 1%",
+    "description": "Айран с ароматной ноткой райхона, лёгкий и освежающий.",
+    "category": "Кисломолочные",
+    "images": [
+      "/media/products/ayron-rayhonli-1/1.jpg",
+      "/media/products/ayron-rayhonli-1/2.jpg",
+      "/media/products/ayron-rayhonli-1/3.jpg"
+    ],
+    "nutrition": {
+      "protein": 1.1,
+      "fats": 1.0,
+      "carbs": 1.4,
+      "kcal": 24,
+      "note": "* На 100 г продукта"
+    },
+    "facts": {
+      "shelfLife": "См. на упаковке",
+      "packCount": "—",
+      "netWeight": "—"
+    },
+    "ingredients": "Состав: нормализованное молоко, питьевая вода, йодированная соль, закваска. Жирность молока: 1%."
+  }
+]
